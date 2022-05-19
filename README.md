@@ -15,7 +15,7 @@ git filter-branch --tree-filter 'rm -f Resources\Video\%font%.ttf' -- --all
 
 **Try this tool too**
 
-from [github](https://stackoverflow.com/questions/2100907/how-to-remove-delete-a-large-file-from-commit-history-in-the-git-repository)
+from [Stack Overflow](https://stackoverflow.com/questions/2100907/how-to-remove-delete-a-large-file-from-commit-history-in-the-git-repository)
 
 [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
 
