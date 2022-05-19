@@ -10,7 +10,9 @@ run with ```--verbose```
 ## Commands to test
 ```bash
 git filter-branch --tree-filter 'rm -f Resources\Video\%font%.ttf' -- --all
-git filter-branch --tree-filter 'rm -f Resources\Video\%font%.ttf' -- --all
+```
+```bash
+git filter-branch --index-filter 'rm -rf docker-source' -- --all
 ```
 
 **Try this tool too**
